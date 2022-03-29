@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import MenuCard from "./component/MenuCard";
+import Resturant from "./component/Resturant";
+import Todo from "./component/Todo/Todo";
+import UseEffectt from "./component/useEffect/UseEffectt";
+import UseReducerr from "./component/useReducerr/UseReducerr";
+import UseStatee from "./component/useState/useState";
+import Temp from "./component/weather/Temp";
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+   {/* <Resturant/> */}
+
+   {/* <UseEffectt/> */}
+
+   {/* <UseReducerr/> */}
+
+   {/* <Todo/> */}
+
+   <Temp/>
+
+    </>
+  )
 }
 
-export default App;
+export default App
